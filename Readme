@@ -10,3 +10,6 @@ sudo apt-get install espeak
 sudo apt-get install bison
 
 /pocketsphinx-0.8/src/programs 
+sudo ./pocketsphinx_continuous -lm 1565.lm -dict 1565.dic
+
+wget https://rcn-ee.com/rootfs/2017-05-21/elinux/ubuntu-16.04.2-console-armhf-2017-05-21.tar.xz
