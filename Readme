@@ -1,3 +1,5 @@
+https://github.com/BOBRAPHTONE/Beagelbone.git
+
 sudo apt-get install alsa-base alsa-utils.
 apt-get install libasound2-dev.
 sudo alsamixer
