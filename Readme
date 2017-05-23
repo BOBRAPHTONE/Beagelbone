@@ -1,1 +1,8 @@
 sudo apt-get install alsa-base alsa-utils.
+apt-get install libasound2-dev.
+sudo alsamixer
+sudo aplay –l. 
+sudo apt-get install espeak
+
+
+sudo apt-get install bison
