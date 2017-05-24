@@ -37,8 +37,8 @@ class SpeechDetector:
         self.num_phrases = -1
 
         # These will need to be modified according to where the pocketsphinx folder is
-        MODELDIR = "../../tools/pocketsphinx/model"
-        DATADIR = "../../tools/pocketsphinx/test/data"
+        MODELDIR = "/root/pocketsphinx-python/pocketsphinx/model"
+        DATADIR = "/root/pocketsphinx-python/pocketsphinx/test/data"
 
         # Create a decoder with certain model
         config = Decoder.default_config()
