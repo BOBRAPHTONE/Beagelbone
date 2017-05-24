@@ -13,3 +13,16 @@ sudo apt-get install bison
 sudo ./pocketsphinx_continuous -lm 1565.lm -dict 1565.dic
 
 wget https://rcn-ee.com/rootfs/2017-05-21/elinux/ubuntu-16.04.2-console-armhf-2017-05-21.tar.xz
+
+sudo apt-get install -y python python-dev python-pip build-essential swig git
+git clone --recursive https://github.com/cmusphinx/pocketsphinx-python/
+https://github.com/cmusphinx/pocketsphinx-python.git
+cd pocketsphinx-python
+sudo python setup.py install
+
+
+
+./pocketsphinx_continuous -adcdev plughw:1,0 -nfft 2048 -samprate 48000
+sudo apt-get remove pulseaudio -y
+sudo aptitude purge pulseaudio -y
+sudo mv /usr/include/pulse/pulseaudio.h /usr/include/pulse/pulseaudio.h.old
