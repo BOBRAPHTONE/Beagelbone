@@ -49,6 +49,20 @@ Client ID	amzn1.application-oa2-client.224ee8af8b934fc29f0ffcee2dcecbd9
 Client Secret	b64182035f1cbf6d4536dd1334f9b0474612f038bd6d01dfb2029b81403864bb
 Consent Privacy Notice URL  http://bobalexa.com
 Consent Logo Image  	
+=====================================================================================================
+
+
+
+
+Example1
+cd Alexa
+python movement.py
+
+Example 2
+cd pocketshinx/src/programs
+pocketsphinx_continuous -hmm /usr/local/share/pocketsphinx/model/en-us/en-us -lm 2126.lm -dict 2126.dic -nfft 2048 -inmic yes -samprate 44100
+
+./pocketsphinx_continuous -lm 2126.lm -dict 2126.dic -keyphrase "OKAY PI" -kws_threshold 1e-20 -inmic yes
 
 
 ===================================================
@@ -92,3 +106,6 @@ http://oftw.wikidot.com/install-ps3-eye-camera-in-ubuntu
  https://wiki.debian.org/PulseAudio#PulseAudio-1
 
  sudo patch -p1 < ps3eyeMT-2.6.31-10-generic.patch only patch the driver in drivers/media/video/gspca/ov534.c
+
+
+
