@@ -26,3 +26,69 @@ sudo python setup.py install
 sudo apt-get remove pulseaudio -y
 sudo aptitude purge pulseaudio -y
 sudo mv /usr/include/pulse/pulseaudio.h /usr/include/pulse/pulseaudio.h.old
+
+
+
+
+
+amzn1.application.54be6c6cbb4a442a9108846571170fc3
+
+Client ID:amzn1.application-oa2-client.224ee8af8b934fc29f0ffcee2dcecbd9
+
+Client Secret:b64182035f1cbf6d4536dd1334f9b0474612f038bd6d01dfb2029b81403864bb
+
+
+
+
+These settings apply to all the apps using this security profile. Your security profile credentials — Client ID and Client Secret — allow your app to securely identify itself to Amazon services. Learn More
+
+Security Profile Name	        BobsAlexa
+Security Profile Description	BobsAlexa
+Security Profile ID	amzn1.application.54be6c6cbb4a442a9108846571170fc3
+Client ID	amzn1.application-oa2-client.224ee8af8b934fc29f0ffcee2dcecbd9
+Client Secret	b64182035f1cbf6d4536dd1334f9b0474612f038bd6d01dfb2029b81403864bb
+Consent Privacy Notice URL  http://bobalexa.com
+Consent Logo Image  	
+
+
+===================================================
+http://lifehacker.com/how-to-build-your-own-amazon-echo-with-a-raspberry-pi-1787726931
+
+
+
+=======================witai======================
+App ID
+59230710-87a6-439f-946d-3d5898b951ac
+Server Access Token
+65ZYXAWHZ7WYULCGYL7A7FZLWLTS7LBW
+
+============================================
+more fun
+ sudo apt-get install ffmpeg
+
+
+ pcm.!default sysdefault:Device
+ arecord -d 5 -r 48000 test.wav
+
+
+
+ http://wiki.tekkotsu.org/index.php/Sony_PlayStation_Eye_driver_install_instructions
+ http://nuigroup.com/forums/viewthread/4079/P30/
+http://nuigroup.com/forums/viewthread/4079/
+
+ apt-get install -y build-essential kernel-package linux-source guvcview
+
+
+
+
+
+ SOUND DRIVERS CRAXE
+ http://renatocunha.com/blog/2012/04/playstation-eye-audio-linux/
+ 
+http://oftw.wikidot.com/install-ps3-eye-camera-in-ubuntu
+
+
+ PUlseAudio.....
+ https://wiki.debian.org/PulseAudio#PulseAudio-1
+
+ sudo patch -p1 < ps3eyeMT-2.6.31-10-generic.patch only patch the driver in drivers/media/video/gspca/ov534.c
